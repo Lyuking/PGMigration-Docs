@@ -1,9 +1,9 @@
 # Project information
-site_name: RestoBook Docs
+site_name: RobotAndDot Docs
 
 # Repository
-repo_name: solopov-av-edu/RestoBook-Docs
-repo_url: https://github.com/solopov-av-edu/RestoBook-Docs
+repo_name: Lyuking/RobotAndDot-Docs
+repo_url: https://github.com/Lyuking/RobotAndDot-Docs
 
 theme:
   custom_dir: 'theme'
@@ -14,13 +14,13 @@ theme:
       scheme: slate
       toggle:
         icon: material/brightness-4
-        name: Switch to light mode
+        name: Перейти к светлой теме
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
       toggle:
         icon: material/brightness-7
-        name: Switch to dark mode
+        name: Перейти к темной теме
   font:
     text: Roboto
     code: Roboto Mono
@@ -63,8 +63,8 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:pymdownx.emoji.gemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_png
   - pymdownx.highlight
   - pymdownx.inlinehilite
   - pymdownx.keys
