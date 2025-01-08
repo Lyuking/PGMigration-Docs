@@ -111,14 +111,14 @@ nav:
     - goals.md
     - characteristics.md
     - business process.md
-    - requirements.md
-    - model.md
-    - architecture.md
-    - uiux.md
-    - api.md
-  - Задачи:
-    - tasks/registration_client.md
-    - tasks/registration_user.md
-    - tasks/auth_client.md
-    - tasks/auth_user.md
-    - tasks/booking_table.md
+   # - requirements.md
+      # - model.md
+      # - architecture.md
+      # - uiux.md
+  # - api.md
+      # - Задачи:
+      #  - tasks/registration_client.md
+      #  - tasks/registration_user.md
+      # - tasks/auth_client.md
+      # - tasks/auth_user.md
+  # - tasks/booking_table.md
