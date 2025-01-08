@@ -142,16 +142,6 @@
 
         </a>
 </li>
-<li class="md-tabs__item">
-<a class="md-tabs__link" href="../tasks/registration_client/">
-          
-  
-    
-  
-  Задачи
-
-        </a>
-</li>
 </ul>
 </div>
 </nav>
@@ -288,93 +278,6 @@
   </span>
 </a>
 </li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../requirements/">
-<span class="md-ellipsis">
-    Требования к системе
-  </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../model/">
-<span class="md-ellipsis">
-    Информационная модель
-  </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../architecture/">
-<span class="md-ellipsis">
-    Компонентная архитектура
-  </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../uiux/">
-<span class="md-ellipsis">
-    Пользовательский интерфейс приложения
-  </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../api/">
-<span class="md-ellipsis">
-    API приложения
-  </span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_3" type="checkbox"/>
-<label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
-<span class="md-ellipsis">
-    Задачи
-  </span>
-<span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="false" aria-labelledby="__nav_3_label" class="md-nav" data-md-level="1">
-<label class="md-nav__title" for="__nav_3">
-<span class="md-nav__icon md-icon"></span>
-            Задачи
-          </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../tasks/registration_client/">
-<span class="md-ellipsis">
-    Регистрация клиента
-  </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../tasks/registration_user/">
-<span class="md-ellipsis">
-    Регистрация пользователя
-  </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../tasks/auth_client/">
-<span class="md-ellipsis">
-    Аутентификация клиента
-  </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../tasks/auth_user/">
-<span class="md-ellipsis">
-    Аутентификация пользователя
-  </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../tasks/booking_table/">
-<span class="md-ellipsis">
-    Бронирование столиков из списка
-  </span>
-</a>
-</li>
 </ul>
 </nav>
 </li>
@@ -389,33 +292,31 @@
 <h2 id="_2"><span class="enumerate-headings-plugin enumerate-heading-plugin">3.1</span> Предмет разработки<a class="headerlink" href="#_2" title="Permanent link">¶</a></h2>
 <p>Предметом разработки является: </p>
 <ul>
-<li>Веб-приложение, позволяющее клиентам размещать информацю о ресторанах и столиках</li>
-<li>Мобильное и веб-приложение, позволяющее пользователям бронировать выбранные столики</li>
+<li>Приложение для терминалов, позволяющее пользователям просматривать меню и формировать заказ</li>
+<li>Мобильное приложение для пользователей, позволяющее им просматривать меню, формировать и отменять заказ и использовать систему лояльности</li>
+<li>Мобильное приложение для менеджера по гостеприимству, позволяющее получать заявки об инцидентах из терминалов</li>
 </ul>
 <h2 id="_3"><span class="enumerate-headings-plugin enumerate-heading-plugin">3.2</span> Сведения о пользователях системы<a class="headerlink" href="#_3" title="Permanent link">¶</a></h2>
 <p>В проектируемой системе должны быть определены следующие роли:</p>
 <ul>
-<li>клиент</li>
-<li>пользователь</li>
-<li>менеджер (администратор)</li>
+<li>Пользователь</li>
+<li>Клиент</li>
+<li>Менеджер по гостеприимству</li>
 </ul>
 <h2 id="_4"><span class="enumerate-headings-plugin enumerate-heading-plugin">3.3</span> Сведения о заинтересованных лицах<a class="headerlink" href="#_4" title="Permanent link">¶</a></h2>
 <p>Ключевыми стейкхолдерами проекта являются:</p>
 <ul>
 <li>Генеральный директор</li>
-<li>Директор по маркетингу</li>
+<li>Главный технолог</li>
 <li>IT Директор</li>
+<li>Product Owner</li>
 </ul>
 <h2 id="_5"><span class="enumerate-headings-plugin enumerate-heading-plugin">3.4</span> Ограничения проекта<a class="headerlink" href="#_5" title="Permanent link">¶</a></h2>
 <ul>
-<li>Срок реализации MVP - 3 месяца</li>
-<li>Бюджет - 15 млн. рублей</li>
-<li>Территория распространения - Москва и Московская область</li>
-<li>Источник монетизации приложения:<ul>
-<li>Комиссия, взимаемая с рестораторов.</li>
-<li>Дополнительные услуги для рестораторов (поднятие приоритета в списке ресторанов для пользователя)</li>
-</ul>
-</li>
+<li>Срок реализации MVP - 1 год</li>
+<li>Бюджет - 100 млн. рублей</li>
+<li>Территория распространения - по всей России, начальное - с 1 ресторана</li>
+<li>Источник монетизации системы - заказы клиентов.</li>
 </ul>
 </article>
 </div>
