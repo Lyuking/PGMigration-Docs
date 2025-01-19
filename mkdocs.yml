@@ -1,9 +1,9 @@
 # Project information
-site_name: RobotAndDot Docs
+site_name: PGMigration Docs
 
 # Repository
-repo_name: Lyuking/RobotAndDot-Docs
-repo_url: https://github.com/Lyuking/RobotAndDot-Docs
+repo_name: Lyuking/PGMigration-Docs
+repo_url: https://github.com/Lyuking/PGMigration-Docs
 
 theme:
   custom_dir: 'theme'
@@ -106,11 +106,12 @@ nav:
   - Домашняя страница:
     - index.md
   - Документация:
-    - glossary.md
+    #  glossary.md
     - general info.md
+    - interviews.md
     - goals.md
     - characteristics.md
-    - business process.md
+    # business process.md
    # - requirements.md
       # - model.md
       # - architecture.md
