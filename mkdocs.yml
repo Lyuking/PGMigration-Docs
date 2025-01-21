@@ -106,7 +106,7 @@ nav:
   - Домашняя страница:
     - index.md
   - Документация:
-    #  glossary.md
+    - glossary.md
     - general info.md
     - interviews.md
     - goals.md
